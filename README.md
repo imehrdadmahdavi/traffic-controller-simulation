@@ -9,6 +9,6 @@ below using multi-threading within a single process.
 
 ![Token Bucket](figure1.png)
 
-Figure 1: A system with a token bucket filter.
+**Figure 1:** A system with a token bucket filter.
 
 
