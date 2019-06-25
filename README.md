@@ -7,3 +7,6 @@ below using multi-threading within a single process.
 
 ## System Architecture
 
+![Token Bucket](figure1.gif)
+Figure 1: A system with a token bucket filter.
+
