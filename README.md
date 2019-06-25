@@ -64,12 +64,12 @@ $ ./traffic_controller -t tsfile
 If a packet is served by a server, there must be exactly 7 below output lines that correspond to this packet:
 
 * p1 arrives, needs 3 tokens, inter-arrival time = 503.112ms
-*  p1 enters Q1
-*  p1 leaves Q1, time in Q1 = 247.810ms, token bucket now has 0 token
-*  p1 enters Q2
-*  p1 leaves Q2, time in Q2 = 0.216ms
-*  p1 begins service at S1, requesting 2850ms of service
-*  p1 departs from S1, service time = 2859.911ms, time in system = 3109.731ms
+* p1 enters Q1
+* p1 leaves Q1, time in Q1 = 247.810ms, token bucket now has 0 token
+* p1 enters Q2
+* p1 leaves Q2, time in Q2 = 0.216ms
+* p1 begins service at S1, requesting 2850ms of service
+* p1 departs from S1, service time = 2859.911ms, time in system = 3109.731ms
 
 ## Output Example
 
