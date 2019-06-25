@@ -3,7 +3,7 @@
 ## Summary
 
 This program emulate/simulate a traffic shaper who transmits packets controlled by a token bucket filter depicted
-below using multi-threading within a single process.
+below using POSIX pthread multi-threading within a single process.
 
 ## System Architecture
 
