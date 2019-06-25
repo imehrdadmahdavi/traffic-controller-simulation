@@ -31,7 +31,7 @@ This program utilizes the POSIX multi-threading standard to implement multithrea
 
 The Q1 and Q2 queues must have an infinite capacity and a list data structure is used to implement them
 
-If the user presses <Cntrl+C> on the keyboard, the program terminates gracefully. It terminates the arrival thread and the token depositing thread, removes all packets in Q1 and Q2, let your server finish transmitting the current packet, and output statistics.
+If the user presses `<Cntrl+C>` on the keyboard, the program terminates gracefully. It terminates the arrival thread and the token depositing thread, removes all packets in Q1 and Q2, let your server finish transmitting the current packet, and output statistics.
 
 ## Compile
 ```shell
