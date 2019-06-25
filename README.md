@@ -18,7 +18,7 @@ Packets arrive at the token bucket filter according to an unusual arrival proces
 The transmission facility (denoted as S1 and S2 in the above figure and they are referred to as the "servers") serves packets in Q2 in the first-come-first-served order and at a service rate of `mu` per second. When a server becomes available, it will dequeue the first packet from Q2 and start transmitting the packet. When a packet has received `1/mu` seconds of service, it leaves the system. Also, the servers are kept as busy as possible.
 
 The system can run in only one of two modes:
-* **Deterministic:** In this mode, all inter-arrival times are equal to `1/lambda` seconds, all packets require exactly P tokens, and all service times are equal to `1/mu` seconds (all rounded to the nearest millisecond).
+* **Deterministic:** In this mode, all inter-arrival times are equal to `1/lambda` seconds, all packets require exactly `P` tokens, and all service times are equal to `1/mu` seconds (all rounded to the nearest millisecond).
 
 * **Trace-driven:** In this mode, we will drive the simulation using a trace specification file. Each line in the trace file specifies the inter-arrival time of a packet, the number of tokens it needs in order for it to be eligible
 for transmission, and its service time.
