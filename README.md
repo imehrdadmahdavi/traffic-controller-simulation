@@ -74,7 +74,7 @@ p1 departs from S1, service time = 2859.911ms, time in system = 3109.731ms
 ## Output Example
 
 ```shell
-$ .//traffic_controller 
+$ ./traffic_controller 
 Emulation Parameters:
 number to arrive = 20
 lambda = 1
