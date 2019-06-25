@@ -29,9 +29,9 @@ The system simulates the packet and token arrivals, the operation of the token b
 
 This program utilizes the POSIX multi-threading standard to implement multithreading. It uses two thread for packet arrival (one for each mode), one thread for token arrival, and one thread for each server. In addition, it uses one mutex to protect Q1, Q2, and the token bucket. 
 
-The Q1 and Q2 queues must have an infinite capacity and a list data structure is used to implement them
+The Q1 and Q2 queues must have an infinite capacity and a list data structure is used to implement them.
 
-If the user presses `<Cntrl+C>` on the keyboard, the program terminates gracefully. It terminates the arrival thread and the token depositing thread, removes all packets in Q1 and Q2, let your server finish transmitting the current packet, and output statistics.
+If the user presses `<Ctrl+C>` on the keyboard, the program terminates gracefully. It terminates the arrival thread and the token depositing thread, removes all packets in Q1 and Q2, let your server finish transmitting the current packet, and output statistics.
 
 ## Compile
 ```shell
