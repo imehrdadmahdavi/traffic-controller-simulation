@@ -37,7 +37,7 @@ If the user presses `<Ctrl+C>` on the keyboard, the program terminates gracefull
 ```shell
 $ make traffic_controller
 ```
-Note: 32-bit Ubuntu 16.04 system was used to compile/run
+Note: A 32-bit Ubuntu 16.04 system was used to compile/run
 
 ## Commandline Usage
 ```shell
